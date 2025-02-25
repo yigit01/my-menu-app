@@ -25,7 +25,7 @@ const MenuModern = () => {
         ref={containerRef}
         style={{ transform: `translate(-50%, -50%) scale(${scale})` }}
       >
-        <h1>Our Menu - Modern Tasarım</h1>
+        <h1>Tasarım 2</h1>
         <div className="menu-modern-grid">
           {menuData.map((category, index) => (
             <div className="menu-card" key={index}>

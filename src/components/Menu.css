@@ -2,27 +2,29 @@
 
 /* Sabit boyut: 1920px genişlik, 1080px yükseklik */
 .menu-container {
-  width: 1911px;
-  height: 911px;
-  margin: 0 auto; /* Ortalamak için */
+  max-width: 1920px;
+  width: 100%;        /* Cihaz genişliğine uyum sağlar */
+  min-height: 1080px;  /* İçerik yüksekliğini en az 1080px yapar */
+  margin: 0 auto;
   background-color: #444;
   color: #fff;
   box-sizing: border-box;
   overflow: hidden;
 }
-
-.menu-title {
-  text-align: center;
-  padding: 20px;
-  margin: 0;
-  color: orange;
-}
-
-/* 3 sütunlu grid düzeni */
-.menu-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-  box-sizing: border-box;
-}
+  
+  .menu-title {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    color: orange;
+  }
+  
+  /* 3 sütunlu grid düzeni */
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  

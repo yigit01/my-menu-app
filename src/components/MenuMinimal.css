@@ -1,0 +1,75 @@
+/* src/components/MenuMinimal.css */
+.menu-minimal-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: sans-serif;
+    background: #444;
+    color: #fff;
+  }
+  
+  .menu-minimal-container h1 {
+    color: orange;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-header-minimal {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #666;
+    padding: 10px 0;
+  }
+  
+  .category-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  .category-items-minimal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .category-items-minimal li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #666;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-price {
+    float: right;
+    color: orange;
+  }
+  
+  .item-desc {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  /* Media Queries: Küçük ekranlar için */
+  @media (max-width: 768px) {
+    .menu-minimal-container {
+      padding: 5px;
+    }
+    .category-icon {
+      width: 40px;
+      height: 40px;
+    }
+    .category-header-minimal h2 {
+      font-size: 1.2rem;
+    }
+    .item-desc {
+      font-size: 0.8rem;
+    }
+  }
+  

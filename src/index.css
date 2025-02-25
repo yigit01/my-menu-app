@@ -1,5 +1,11 @@
-body {
+/* src/index.css */
+html, body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333; /* Sayfa genel arka planı */
+  overflow: hidden; /* Sabit ekran boyutunda kaydırma olmasın */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
